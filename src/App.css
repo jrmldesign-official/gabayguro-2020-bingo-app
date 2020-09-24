@@ -1,0 +1,54 @@
+/* GABAY GURO COLOR */
+
+/* #0f924 - green */
+/* #d51e2d - red */
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+body {
+  background: #f7f7f7;
+  outline: none !important;
+}
+
+.gg-text {
+  color: #209247;
+}
+
+.gg-bg {
+  background: #0f9247;
+}
+
+
+
+
+
+/* OVERRIDE BOOTSTRAP CLASS: start */
+.text-muted {
+  color: #209247 !important;
+}
+.btn {
+  border: 0;
+  border-top-right-radius: 0px;
+}
+/* OVERRIDE BOOTSTRAP CLASS: end */
+
+/* LOGIN PAGE: start */
+#login-body {
+  height: 100vh;
+}
+#gg-login-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  width: 100%;
+}
+
+.custorm-form-login {
+  background: #e6ebef;
+  border: 0;
+  border-top-right-radius: 0px;
+}
+/* LOGIN PAGE: end */
